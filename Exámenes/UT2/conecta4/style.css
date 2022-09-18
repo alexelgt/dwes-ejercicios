@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    background-color: lightblue;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #012DD3;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 16px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+#tablero > div > div {
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+#tablero {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #012DD3;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#tablero img {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+h2 {
+    height: 30px;
+}
+
+form button {
+    border: none;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 10px;
+    
+    background-color: #012DD3;
+    color: #fff;
+}

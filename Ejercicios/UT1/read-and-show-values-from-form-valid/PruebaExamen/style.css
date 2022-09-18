@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    background-color: #E5E5E5;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    color: #FFF;
+    background-color: #5085EC;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+header h1 {
+    padding-top: 16px;
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.card {
+    max-width: 80%;
+    width: 400px;
+    background-color: #FFF;
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 20px;
+    
+    display: flex;
+    flex-flow: column wrap;
+}
+
+form.card > div {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 20px;
+}
+
+form.card > div.checkbox {
+    flex-flow: row wrap;
+}
+
+form.card > div.checkbox label {
+    
+}
+
+form.card input[type="checkbox"] {
+    margin-left: 10px
+}
+
+form.card label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form.card input[type="text"], form.card input[type="password"], form.card input[type="date"], form.card select {
+    height: 30px;
+    background-color: #F5F5F5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+

@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    background-color: #E5E5E5;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #5085EC;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+h1 {
+    padding-top: 16px;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    color: #FFF;
+}
+
+.card {
+    width: 500px;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+form > div {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+form > div:last-child {
+    margin-bottom: 0;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    background-color: #F5F5F5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+}
+
+form button {
+    background-color: #5085EC;
+    color: #FFF;
+    padding: 10px;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.no-valido {
+    color: red
+}

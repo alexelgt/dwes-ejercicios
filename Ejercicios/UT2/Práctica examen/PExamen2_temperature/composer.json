@@ -1,0 +1,18 @@
+{
+    "name": "alexelgt/p-examen2_temperature",
+    "type": "project",
+    "require": {
+        "eftec/bladeone": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alexelgt\\PExamen2Temperature\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alexelgt",
+            "email": "alexelgt@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "alexelgt/rest-service-alexelgt",
+    "type": "project",
+    "require": {
+        "slim/slim": "^4.9",
+        "slim/psr7": "^1.5",
+        "selective/basepath": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alexelgt\\RestServiceAlexelgt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alexelgt",
+            "email": "alexelgt@gmail.com"
+        }
+    ]
+}

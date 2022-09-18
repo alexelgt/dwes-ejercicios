@@ -1,0 +1,18 @@
+{
+    "name": "alexelgt/tic-tac-toe-alexelgt",
+    "type": "project",
+    "require": {
+        "eftec/bladeone": "^4."
+    },
+    "autoload": {
+        "psr-4": {
+            "Alexelgt\\TicTacToeAlexelgt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alexelgt",
+            "email": "alexelgt@gmail.com"
+        }
+    ]
+}

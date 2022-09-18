@@ -1,0 +1,18 @@
+{
+    "name": "alexelgt/temperature-data-alexelgt",
+    "type": "project",
+    "require": {
+        "eftec/bladeone": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alexelgt\\TemperatureDataAlexelgt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alexelgt",
+            "email": "alexelgt@gmail.com"
+        }
+    ]
+}

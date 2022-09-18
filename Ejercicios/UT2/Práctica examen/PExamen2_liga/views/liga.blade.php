@@ -1,0 +1,25 @@
+@extends("master")
+@section("content")
+<table>
+    <thead>
+        <tr>
+            <th>Equipo</th>
+            <th>GF</th>
+            <th>GC</th>
+            <th>DG</th>
+            <th>Pts.</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach ($datos_equipos as $equipo => $resultados)
+        <tr>
+            <td>{{$equipo}}</td>
+            <td>{{$resultados["goles_conseguidos"]}}</td>
+            <td>{{$resultados["goles_encajados"]}}</td>
+            <td>{{$resultados["gol_average"]}}</td>
+            <td>{{$resultados["puntos"]}}</td>
+        </tr>
+        @endforeach
+    </tbody>
+</table>
+@endsection

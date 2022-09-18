@@ -1,0 +1,33 @@
+@extends("master")
+@section("content")
+            <div class="card flex-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Equipo</th>
+                            <th>V</th>
+                            <th>E</th>
+                            <th>D</th>
+                            <th>GF</th>
+                            <th>GC</th>
+                            <th>DG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+@foreach ($resultados_liga as $equipo => $datos_equipo)
+                        <tr>
+                            <td>{{$equipo}}</td>
+                            <td>{{$datos_equipo["victorias"]}}</td>
+                            <td>{{$datos_equipo["empates"]}}</td>
+                            <td>{{$datos_equipo["derrotas"]}}</td>
+                            <td>{{$datos_equipo["goles_conseguidos"]}}</td>
+                            <td>{{$datos_equipo["goles_encajados"]}}</td>
+                            <td>{{$datos_equipo["gol_average"]}}</td>
+                            <td>{{$datos_equipo["puntos"]}}</td>
+                        </tr>
+@endforeach
+                    </tbody>
+                </table>
+            </div>
+@endsection

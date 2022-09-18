@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    background-color: #E5E5E5;
+    font-family: Helvetica;
+}
+
+table {
+    border-collapse: collapse
+}
+
+thead {
+    background-color: #000;
+    color: #FFF;
+}
+
+th, td {
+    padding: 4px;
+    border: 1px solid #000
+}
+
+td {
+    text-align: right
+}
+
+td:last-child {
+    background-color: #F1F1F1
+}
+
+td:first-child {
+    text-align: left
+}
+
+.bold, form label {
+    font-weight: bold
+}
+
+.no-valido {
+    color: red
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    color: #FFF;
+    background-color: #5085EC;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding: 12px;
+    font-size: 24px
+}
+
+.card {
+    background-color: #FFF;
+    border-radius: 20px;
+    max-width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.flex-space {
+    justify-content: space-evenly
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+form div {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 20px 0;
+}
+
+form label {
+    margin-bottom: 10px
+}
+
+form input {
+    background-color: #F5F5F5;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none
+}
+
+form button {
+    height: 40px;
+    color: #FFF;
+    background-color: #5085EC;
+}
+
+h2 {
+    text-align: center
+}
+
+.marcador {
+    box-sizing: border-box;
+    width: calc(25% - 20px);
+    margin: 10px;
+    background-color: #F5F5F5;
+    padding: 10px;
+    border-radius: 20px
+}
+
+.marcador h3 {
+    text-align: center;
+    margin: 0;
+}
+
+.marcador div.flex-container {
+    justify-content: center
+}
+
+.marcador input {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: #fff;
+}
+
+.marcador input:first-child {
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+
+.marcador input:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+@media (max-width: 1000px) {
+    .marcador {
+        width: calc(33% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .marcador {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 340px) {
+    .marcador {
+        width: calc(100% - 20px);
+    }
+}

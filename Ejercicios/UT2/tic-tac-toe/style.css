@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #13bdac;
+}
+
+header {
+  width: 100%;
+  background-color: #0d867a;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+}
+header h1 {
+  margin: 0;
+  padding: 18px 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#tablero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 20px auto;
+  width: 300px;
+  height: 300px;
+  transition: width 0.2s, height 0.2s;
+}
+#tablero > div {
+  background-size: cover;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 4px solid #0fa192;
+  margin: 0;
+  padding: 0;
+  background-color: #13bdac;
+  width: 33%;
+  height: 33%;
+}
+#tablero > div img {
+  width: 100%;
+}
+#tablero > div:hover {
+  background-color: #12ae9e;
+}
+#tablero > div:active {
+  background-color: #0d867a;
+}
+#tablero > div.pulsado:hover, #tablero > div.pulsado:active {
+  background-color: #13bdac;
+  cursor: auto;
+}
+#tablero > div#casilla-00, #tablero > div#casilla-10, #tablero > div#casilla-20 {
+  border-left: none;
+}
+#tablero > div#casilla-02, #tablero > div#casilla-12, #tablero > div#casilla-22 {
+  border-right: none;
+}
+#tablero > div#casilla-00, #tablero > div#casilla-01, #tablero > div#casilla-02 {
+  border-top: none;
+}
+#tablero > div#casilla-20, #tablero > div#casilla-21, #tablero > div#casilla-22 {
+  border-bottom: none;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 0 auto;
+  display: inline-block;
+  background-color: #0d867a;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  padding: 10px 20px;
+  transition: background-color 0.2s;
+}
+button:hover {
+  background-color: #0b6d63;
+}
+button:active {
+  background-color: #08514a;
+}
+
+h2 {
+  text-align: center;
+  height: 40px;
+  color: #06403a;
+}
+
+@media screen and (max-width: 400px) {
+  #tablero {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

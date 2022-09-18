@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    background-color: #E5E5E5
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #5085EC;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center
+}
+
+h1 {
+    padding-top: 10px;
+    margin: 0;
+    font-size: 24px
+}
+
+.card {
+    width: 500px;
+    max-width: 80%;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.4);
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+form > div {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px 0
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 10px
+}
+
+form textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #F5F5F5;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px
+}
+
+.no-valido {
+    color: red
+}
